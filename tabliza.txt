@@ -1,0 +1,106 @@
+<! DOCETYPE html>
+<html>
+<head>
+<meta charest="UTF-8">
+<title>Расписание</title>
+<style>
+table {
+font-family: "Lucida Sans Unicode";
+width: 100%; /* Ширина таблицы */
+color: #8b4513; /* Цвет текста */
+border-spacing: 1px; /* Расстояние между ячейками */
+}
+td, th{
+border: 1px solid BurlyWood;
+bordercolor : #deb887;
+background: #ffebcd; /* Цвет фона ячеек */
+padding: 3px; /* Поля вокруг текста */
+font-weight: normal;
+}
+
+
+</style>
+</head>
+<body>
+<table border="1">
+<table bordercolor="#deb887">
+<col style="width:14%">
+<col style="width:8%">
+<col style="width:30%">
+<col style="width:30%">
+<col style="width:18%">
+<thead><tr>
+<th><b><font size=4>День недели</font size></b></th>
+<th><b><font size=4>Время</font size></b></th>
+<th ><b><font size=4>Предмет</font size></b></th>
+<th><b><font size=4>Преподаватель</font size></b></th>
+<th><b><font size=4>Аудитория</font size></b></th>
+</tr></thead>
+
+<tr>
+<td rowspan="4">Понедельник</td>
+<th>9:00-10:30</th>
+<th>Математический анализ</th>
+<th>Иванов И.И.</th>
+<th>307</th>
+</tr>
+<tr>
+<th rowspan="2">10:45-12:15</th><th>Математический анализ</th><th>Иванов И.И.</th><th>307</th>
+</tr>
+<th>Компьютерная графика</th><th>Иванов И.И.</th><th>307</th>
+</tr>
+<th>12:30-14:00</th><th>Алгоритмы и структуры данных</th><th>Иванов И.И.</th><th>307</th>
+</tr>
+
+<tr>
+<td rowspan="4">Вторник</td>
+<th rowspan="2">9:00-10:30</th><th>Математический анализ</th><th>Иванов И.И.</th><th>307</th>
+</tr>
+<td><table> <col style="width:50%"><col style="width:50%"><th>Английский язык</th> <th>Практикум на ЭВМ</th></table></td>
+<td><table><col style="width:50%"><col style="width:50%"> <th>Иванов И.И.</th> <th>Иванов И.И.</th></table></td>
+<td><table><col style="width:50%"><col style="width:50%"> <th>203</th> <th>205</th></table></td>
+</tr>
+<th>10:45-12:15</th><th>Математический анализ</th><th>Иванов И.И.</th><th>307</th>
+</tr>
+<th>12:30-14:00</th><th>Физическая культура</th><th>Иванов И.И.</th><th>Спортивный зал</th></tr>
+<tr>
+<td rowspan="3">Среда</td>
+<th>9:00-10:30</th><th>Архитектура компьютеров и операционные системы</th><th>Иванов И.И.</th><th>220</th>
+</tr>
+<th>10:45-12:15</th><th>История</th><th>Иванов И.И.</th><th>301</th></tr>
+<th>12:30-14:00</th><td><table> <col style="width:50%"><col style="width:50%"><th>Алгоритмы и структуры данных</th> <th>Английский язык</th></table></td>
+<td><table><col style="width:50%"><col style="width:50%"> <th>Иванов И.И.</th> <th>Иванов И.И.</th></table></td>
+<td><table><col style="width:50%"><col style="width:50%"> <th>312</th> <th>307</th></table></td>
+</tr>
+
+<td rowspan="3">Четверг</td>
+<th>9:00-10:30</th><th>Алгебра и геометрия</th><th>Иванов И.И.</th><th>305</th>
+</tr>
+<th>10:45-12:15</th><td><table> <col style="width:50%"><col style="width:50%"><th>Компьютерная графика</th> <th>Архитектура компьютеров и операционные системы</th></table></td>
+<td><table><col style="width:50%"><col style="width:50%"> <th>Иванов И.И.</th> <th>Иванов И.И.</th></table></td>
+<td><table><col style="width:50%"><col style="width:50%"> <th>243</th> <th>220</th></table></td>
+</tr>
+<th>12:30-14:00</th><td><table> <col style="width:50%"><col style="width:50%"><th>Компьютерная графика</th> <th>Архитектура компьютеров и операционные системы</th></table></td>
+<td><table><col style="width:50%"><col style="width:50%"> <th>Иванов И.И.</th> <th>Иванов И.И.</th></table></td>
+<td><table><col style="width:50%"><col style="width:50%"> <th>243</th> <th>220</th></table></td>
+</tr>
+
+<td rowspan="5">Пятница</td>
+<th>9:00-10:30</th><th>Алгебра и геометрия</th><th>Иванов И.И.</th><th>305</th>
+</tr>
+<th>10:45-12:15</th><th>Алгебра и геометрия</th><th>Иванов И.И.</th><th>305</th>
+</tr>
+<th>12:30-14:00</th><td><table> <col style="width:50%"><col style="width:50%"><th>Английский язык</th> <th>Практикум на ЭВМ</th></table></td>
+<td><table><col style="width:50%"><col style="width:50%"> <th>Иванов И.И.</th> <th>Иванов И.И.</th></table></td>
+<td><table><col style="width:50%"><col style="width:50%">
+<th>203</th> <th>205</th></table></td>
+</tr>
+<th>14:15-15:45</th><td><table> <col style="width:50%"><col style="width:50%"><th></th> <th>Компьютерная графика</th></table></td>
+<td><table><col style="width:50%"><col style="width:50%"> <th></th> <th>Иванов И.И.</th></table></td>
+<td><table><col style="width:50%"><col style="width:50%"> <th></th> <th>203</th></table></td>
+</tr>
+
+
+</table>
+</body>
+</html>
